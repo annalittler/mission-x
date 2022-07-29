@@ -1,0 +1,109 @@
+.student-section {
+  height: 750px;
+  width: 50%;
+  border-right: 1px solid #707070;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.teacher-section {
+  height: 750px;
+  width: 50%;
+  border-left: 1px solid #707070;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-section {
+  height: 625px;
+  display: flex;
+  flex-direction: column;
+}
+
+.modal-img {
+  width: 200px;
+  align-self: center;
+}
+
+.modal-h1 {
+  color: #707070;
+  font-family: Nunito;
+  font-size: 42px;
+  font-weight: 800;
+  text-align: center;
+}
+
+.login-signup-h2s {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: -20px;
+}
+
+.modal-h2 {
+  color: #707070;
+  font-family: Open Sans;
+  text-align: center;
+  font-size: 16px;
+}
+
+.modal-h2:hover {
+  cursor: pointer;
+}
+
+.underline::after {
+  content: "";
+  height: 3px;
+  background: #43c0f6;
+  border-radius: 5px;
+  display: block;
+}
+
+.x-mark {
+  position: absolute;
+  top: 40px;
+  right: 40px;
+  font-size: 35px;
+  color: #707070;
+}
+
+.x-mark:hover {
+  cursor: pointer;
+}
+
+.x-mark-main {
+  position: absolute;
+  top: 40px;
+  right: 40px;
+  font-size: 35px;
+  color: #707070;
+}
+
+.x-mark-main:hover {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 950px) {
+  .x-mark-main {
+    display: none;
+  }
+
+  .teacher-section {
+    border-left: none;
+    margin-top: 80px;
+  }
+
+  .student-section {
+    border-right: none;
+    margin-top: 80px;
+  }
+  .modal-img {
+    width: 150px;
+  }
+
+  .modal-h1 {
+    font-size: 32px;
+  }
+}

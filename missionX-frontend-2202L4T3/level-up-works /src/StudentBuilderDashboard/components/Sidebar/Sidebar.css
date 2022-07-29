@@ -1,0 +1,90 @@
+.dashboard-sidebar-body {
+    display: flexbox;
+    background-color: #43C0F6;
+    width: 250px;
+    height: 800px; 
+}
+
+.student-profile-picture {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#profile-picture {
+    margin: 20px 0px;
+}
+
+.sidebar-button {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.sidebar-button img {
+    margin: 0px 20px;
+}
+
+.sidebar-button:hover {
+    background-color: #B2E4FA;
+    color: #707070;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+/* Red Arrow */
+.arrow-to-hide-sidebar {
+    margin: 20px 0px;
+    text-align: end; 
+    cursor: pointer;
+}
+
+
+/* Account buttons at the end of the Sidebar */
+.sidebar-account-section {
+    display: flex;
+    justify-content: space-around;
+    /* margin: 220px 40px 0px; */
+}
+
+.sidebar-account-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    cursor: pointer;
+}
+
+.sidebar-account-button img {
+    margin: 5px;
+}
+
+#account-text {
+    font-family: Open Sans;
+    font-size: 10px;
+    color: #FFFFFF;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar-account-button:hover {
+    background-color: #B2E4FA;
+}
+
+.sidebar-account-button:hover #account-text {
+    color: #707070;
+}

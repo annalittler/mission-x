@@ -1,0 +1,43 @@
+.blocks-dashboard-background {
+    background-color: #DAF2FE;
+    border-radius: 20px;
+    margin: 30px 25px;
+    width: 80%;
+}
+
+.dashboard-main-title h1 {
+    font-family: Nunito;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.dashboard-main-title p {
+    font-family: Open Sans;
+    font-size: 16px;
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.column-1 {
+    margin: auto;
+}
+
+.column-2 {
+    margin: auto;
+}
+
+.column-3 {
+    margin: auto;
+}
+
+.grid-container h2 {
+    font-family: Nunito;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+}

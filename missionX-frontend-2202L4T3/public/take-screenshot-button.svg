@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="215" height="50" viewBox="0 0 215 50">
+  <defs>
+    <filter id="Rectangle_241" x="0" y="0" width="215" height="50" filterUnits="userSpaceOnUse">
+      <feOffset dy="4" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="CTA_Button" data-name="CTA Button" transform="translate(-809.5 -915.5)">
+    <g transform="matrix(1, 0, 0, 1, 809.5, 915.5)" filter="url(#Rectangle_241)">
+      <rect id="Rectangle_241-2" data-name="Rectangle 241" width="200" height="35" rx="7" transform="translate(7.5 3.5)" fill="#e5ab2c"/>
+    </g>
+    <text id="Take_Screenshot" data-name="Take Screenshot" transform="translate(917 943)" fill="#fff" font-size="16" font-family="Nunito-Black, Nunito" font-weight="800" letter-spacing="0.02em"><tspan x="-64" y="0">Take Screenshot</tspan></text>
+  </g>
+</svg>

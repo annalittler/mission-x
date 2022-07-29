@@ -1,0 +1,28 @@
+#sec-4-wrapper {
+  padding: 4% 14%;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+#sec-4-text {
+  font-family: Nunito;
+  color: #6c6c6c;
+  text-align: center;
+  font-size: 1.7vw;
+}
+
+#sec-4-images {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.sec-4-image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 17vw;
+}

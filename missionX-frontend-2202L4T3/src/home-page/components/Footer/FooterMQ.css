@@ -1,0 +1,16 @@
+@media screen and (max-width: 600px) {
+  #footer {
+    padding: 7% 10%;
+  }
+
+  .footer-col p,
+  .footer-col a,
+  .footer-h3,
+  #footer-h3-col-5 {
+    font-size: 5.8px;
+  }
+
+  #footer-col-5 {
+    flex: 1.5;
+  }
+}

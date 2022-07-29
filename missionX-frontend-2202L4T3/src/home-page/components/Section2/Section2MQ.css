@@ -1,0 +1,99 @@
+@media screen and (max-width: 1265px) {
+  .sec-2-btn {
+    width: 160px;
+  }
+}
+
+@media screen and (min-width: 1441px) {
+  #section-2 {
+    height: 350px;
+    background-position-x: 40%;
+  }
+}
+
+@media screen and (min-width: 1650px) {
+  #section-2 {
+    height: 375px;
+  }
+}
+
+@media screen and (max-width: 1441px) {
+  #section-2 {
+    background: transparent
+      url("./images/hero-image-background/Hero\ image\ option\ 1\ edit\ 2.png")
+      0% 0% no-repeat padding-box;
+    background-size: cover;
+    background-position-x: 40%;
+    background-position-y: 100%;
+  }
+}
+
+@media screen and (max-width: 1140px) {
+  #section-2 {
+    height: 280px;
+  }
+}
+
+@media screen and (max-width: 923px) {
+  #section-2 {
+    padding: 1% 12%;
+    background-position-x: 50%;
+    background-position-y: 100%;
+  }
+
+  #section-2-buttons {
+    flex-direction: column;
+    width: 35%;
+  }
+
+  #signup-star-text {
+    width: 80%;
+    width: 90%;
+
+    font-weight: 700;
+    font-size: 0.8vw;
+    margin-top: 0.1px;
+    color: #707070;
+  }
+}
+
+@media screen and (max-width: 690px) {
+  #section-2 {
+    background: #f0eff2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    padding-bottom: 60px;
+    padding-top: 60px;
+  }
+
+  #section-2-heading {
+    color: #767676;
+    font-size: 4.5vw;
+    width: 90%;
+    text-align: center;
+  }
+
+  #section-2-paragraph {
+    width: 90%;
+    font-size: 2.3vw;
+    font-size: 2.8vw;
+    text-align: center;
+  }
+
+  #section-2-buttons {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    flex-direction: row;
+    width: 100%;
+  }
+
+  #signup-star-text {
+    width: 78%;
+    font-size: 0.9vw;
+    transform: translateY(-5px);
+  }
+}

@@ -1,0 +1,18 @@
+.content-dashboard-background {
+    background-color: #DAF2FE;
+    border-radius: 20px;
+    margin: 30px 25px;
+    width: 90%;
+}
+
+.project-scratch {
+    width: 95%;
+    height: 90%;
+    margin: 32px;
+}
+/* .screenshot-make-project {
+    margin: 15px;
+    width: 95%;
+    height: auto;
+    object-fit: contain;
+} */

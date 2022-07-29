@@ -1,0 +1,44 @@
+@media screen and (max-width: 760px) {
+  .sub-h2 {
+    text-align: center;
+    font-size: 14px;
+  }
+  .sub-h3 {
+    text-align: center;
+    align-self: center;
+    width: 85%;
+    font-size: 10px;
+  }
+
+  .sub-p {
+    text-align: left;
+    align-self: flex-start;
+    font-size: 8px;
+  }
+
+  .sub-star {
+    height: 30px;
+  }
+
+  .sub-list-item {
+    margin: 15px 10px;
+  }
+
+  #sub-section {
+    padding: 20px 10px;
+    min-height: 485spx;
+    border-radius: 25px;
+  }
+}
+
+@media screen and (min-width: 540px) {
+  .sub-p {
+    font-size: 12px;
+  }
+  .sub-h2 {
+    font-size: 16px;
+  }
+  .sub-h3 {
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,61 @@
+.login-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.login-form > input {
+  border-radius: 10px;
+  width: 220px;
+  height: 33px;
+  margin: 10px;
+  font-size: 13px;
+  font-family: Open Sans;
+  font-weight: 700;
+  border: 1px solid #a29f9f;
+  padding: 0 12px;
+  box-sizing: border-box;
+  color: #707070;
+}
+
+.login-form > input:focus {
+  outline: none;
+}
+
+.login-status-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  padding: 0;
+}
+
+.login-status-title {
+  font-family: Open Sans;
+  color: #707070;
+  font-size: 16px;
+  margin: 5px 0px;
+  text-align: center;
+}
+
+.login-status-text {
+  font-family: Open Sans;
+  color: #707070;
+  font-size: 14px;
+  margin: 5px 0px;
+  text-align: center;
+}
+
+.fade-in {
+  animation: fade-in-animation 1s;
+}
+
+@keyframes fade-in-animation {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

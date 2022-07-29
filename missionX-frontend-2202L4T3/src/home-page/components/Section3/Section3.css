@@ -1,0 +1,139 @@
+#sec-3-wrapper {
+  margin: 2% 14%;
+  height: 350px;
+  display: flex;
+  flex-direction: row;
+  /* border: 2px solid purple; */
+}
+
+#sec-3-left-side {
+  width: 48%;
+  display: flex;
+  flex-direction: column;
+  /* border: 2px solid red; */
+  align-items: center;
+  justify-content: center;
+
+  /* padding: 0 2%; */
+}
+
+.sec-3-text {
+  font-family: Nunito;
+  font-weight: 700;
+  color: #6c6c6c;
+}
+
+#sec-3-heading {
+  /* font-size: 42px; */
+  font-size: 2vw;
+}
+
+#sec-3-paragraph {
+  font-family: Open Sans;
+  font-size: 1vw;
+  width: 85%;
+  line-height: 1.1;
+  letter-spacing: 0.5px;
+  /* border: 2px solid blue; */
+}
+
+#squares-section {
+  width: 95%;
+  /* border: 2px solid red; */
+  margin-left: 0;
+  align-self: flex-start;
+}
+
+#sec-3-squares-title {
+  font-family: Nunito;
+  color: #6c6c6c;
+  font-size: 1.6vw;
+}
+
+#squares {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  /* margin-left: -5px; */
+  margin: 7% 0;
+}
+
+.sec-3-square {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  /* width: 50%; */
+}
+
+.sec-3-square:hover {
+  cursor: pointer;
+}
+
+.sec-3-square p {
+  font-family: Open Sans;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 12px;
+  font-size: 0.7vw;
+  width: 90%;
+  z-index: 1;
+}
+
+#square {
+  position: absolute;
+  max-width: 8.5vw;
+  /* border: 2px solid black; */
+}
+
+.square-overlay {
+  z-index: 1;
+  width: 34%;
+}
+
+#projects-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.projects-img {
+  width: 95%;
+}
+
+#section-3-photo-buttons {
+  width: 30%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#section-3-photo-buttons:hover {
+  cursor: pointer;
+}
+
+#sec-3-right-side {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid green; */
+}
+
+.section-3-photo-button {
+  height: 12px;
+  width: 12px;
+  border-radius: 20px;
+  border: 2px solid #707070;
+}
+
+.button-checked {
+  height: 12px;
+  width: 12px;
+  border-radius: 20px;
+  border: 2px solid #707070;
+  background-color: #707070;
+}

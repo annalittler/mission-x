@@ -1,0 +1,22 @@
+.login-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.login-form > input {
+  border-radius: 10px;
+  width: 220px;
+  height: 33px;
+  margin: 10px;
+  font-size: 13px;
+  font-family: Open Sans;
+  font-weight: 700;
+  border: 1px solid #a29f9f;
+  padding: 0 12px;
+  box-sizing: border-box;
+}
+
+.login-form > input:focus {
+  outline: none;
+}

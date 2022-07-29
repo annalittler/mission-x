@@ -1,0 +1,76 @@
+.btn-comp {
+  width: 180px;
+  padding: 5px;
+  font-family: Nunito;
+  font-weight: 800;
+  font-size: 0.8vw;
+  border-radius: 7px;
+  box-shadow: 0px 5px 5px 0px #7070704d;
+}
+
+.btn-comp:hover {
+  transform: translateY(-0.8px) translateX(0.8px);
+  cursor: pointer;
+}
+
+.clicked-btn {
+  width: 250px;
+}
+
+.sec-2-btn {
+  margin: 20px;
+  width: 200px;
+}
+
+.sec-2-learnmore-btn {
+  margin-left: 0;
+}
+
+.sec-5-btn {
+  margin: 20px;
+  width: 250px;
+}
+
+.sec-6-btn {
+  margin: 20px;
+  width: 200px;
+}
+
+.modal-button {
+  font-size: 12px;
+  padding: 0px;
+  margin: 10px;
+  height: 33px;
+  width: 180px;
+}
+
+@media screen and (max-width: 923px) {
+  .sec-2-signup-btn {
+    margin: 0;
+  }
+
+  .sec-2-btn {
+    margin: 8px 0;
+  }
+}
+
+@media screen and (max-width: 690px) {
+  .sec-2-btn {
+    width: 25vw;
+    font-size: 1.8vw;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .sec-5-btn {
+    width: 180px;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .sec-6-btn {
+    width: 180px;
+    margin: 5px;
+    font-size: 1.6vw;
+  }
+}

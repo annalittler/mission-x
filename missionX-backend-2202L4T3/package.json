@@ -1,0 +1,35 @@
+{
+  "name": "missionx-backend-2202l4t3",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000m\u0000i\u0000s\u0000s\u0000i\u0000o\u0000n\u0000X\u0000-\u0000b\u0000a\u0000c\u0000k\u0000e\u0000n\u0000d\u0000-\u00002\u00002\u00000\u00002\u0000L\u00004\u0000T\u00003\u0000\r\u0000 \u0000",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mission-Ready/missionX-backend-2202L4T3.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mission-Ready/missionX-backend-2202L4T3/issues"
+  },
+  "homepage": "https://github.com/Mission-Ready/missionX-backend-2202L4T3#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "filestack-react-18": "^4.0.3",
+    "mysql2": "^2.3.3",
+    "node": "^18.5.0",
+    "nodemon": "^2.0.19"
+  },
+  "devDependencies": {
+    "bcrypt": "^5.0.1"
+  }
+}

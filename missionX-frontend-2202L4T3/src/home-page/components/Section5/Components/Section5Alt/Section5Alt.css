@@ -1,0 +1,39 @@
+#sec-5-alt-cont {
+  display: flex;
+  align-items: center;
+}
+
+.no-opacity {
+  opacity: 0;
+}
+
+.sec-5-alt-btn {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+}
+
+#sec-5-alt-content-wrapper {
+  flex: 6;
+}
+
+#sec-5-alt-content-wrapper h1 {
+  font-family: Nunito;
+}
+
+.sec-5-alt-btn-cont {
+  margin: 15px;
+  color: #43c0f6;
+  font-size: 30px;
+}
+
+#sec-5-alt-title {
+  font-family: Nunito;
+  color: #606060;
+  font-size: 18px;
+  font-size: 3vw;
+  margin: 20px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  text-align: center;
+}

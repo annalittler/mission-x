@@ -1,0 +1,57 @@
+#section-2 {
+  padding: 1% 14%;
+  height: 400px;
+  background: transparent
+    url("./images/hero-image-background/Hero\ image\ option\ 1\ edit\ 2.png") 0%
+    0% no-repeat padding-box;
+  background-position-x: 60%;
+}
+
+#button-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  width: 38%;
+}
+
+#signup-section,
+#learn-more-btn {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+#sign-up-star-text {
+  font-family: Open Sans;
+  align-self: center;
+  width: 80%;
+  font-weight: 700;
+  line-height: 95%;
+  font-size: 0.5vw;
+  margin: -5%;
+  color: #707070;
+} 
+
+.blue {
+  color: #42c0f6;
+}
+
+.text {
+  font-family: Nunito;
+  width: 45%;
+  line-height: 95%;
+  font-weight: 700;
+  margin: 2% 0%;
+}
+
+#heading {
+  color: #767676;
+  font-size: 2.9vw;
+}
+
+#paragraph {
+  color: #6c6c6c;
+  font-size: 1.3vw;
+  margin: 2% 0%;
+}

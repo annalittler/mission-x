@@ -1,0 +1,109 @@
+/* @media screen and (max-width: 1000px) { */
+@media screen and (max-width: 923px) {
+  .nav-link,
+  .nav-link a,
+  #language-div {
+    font-size: 10px;
+  }
+
+  #star-logo-nav {
+    height: 45px;
+  }
+
+  #nav {
+    padding: 0% 6%;
+  }
+}
+
+@media screen and (max-width: 690px) {
+  #nav-hamburger {
+    display: block;
+  }
+
+  #links {
+    justify-content: center;
+  }
+
+  .nav-to-hide {
+    display: none;
+  }
+
+  #nav-alt {
+    display: flex;
+    background-color: #b3e6fd;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #nav {
+    height: 100px;
+    padding: 10px 0;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  #links {
+    align-self: center;
+    width: 70%;
+    order: 3;
+  }
+
+  .nav-link,
+  .nav-link a,
+  #language-div {
+    font-size: 2.5vw;
+    margin: 0% 0%;
+  }
+
+  #star-logo-span {
+    order: 1;
+  }
+
+  #language-div {
+    margin: 0% 2%;
+    width: 50%;
+    flex: 1;
+  }
+
+  #login-div {
+    justify-content: flex-start;
+    margin: 0% 2%;
+    width: 50%;
+    flex: 1;
+  }
+
+  #lang-login-div {
+    width: auto;
+    justify-content: space-between;
+
+    padding: 0;
+    order: 2;
+  }
+
+  #lang-and-login {
+    flex-direction: row-reverse;
+    align-items: center;
+    width: 80vw;
+    margin-bottom: 1%;
+  }
+
+  #nz-flag,
+  #maori-flag {
+    height: 15px;
+    width: 30px;
+  }
+
+  #user-icon {
+    margin: 0 5px;
+  }
+
+  .flag-div {
+    margin: 0 2%;
+  }
+
+  #nav-hamburger {
+    display: flex;
+    order: 3;
+  }
+}

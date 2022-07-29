@@ -1,0 +1,135 @@
+#nav {
+  background-color: #43c0f6;
+  height: 64px;
+  box-shadow: 0px 3px 6px #00000029;
+  /* opacity: 1; */
+  display: flex;
+  padding: 0% 12%;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  /* z-index: 100; */
+  /* justify-content: center; */
+}
+
+#links {
+  align-self: flex-end;
+  margin-bottom: 1%;
+  width: 35%;
+  display: flex;
+  justify-content: space-between;
+  /* display: none; */
+}
+
+.nav-link:hover {
+  transform: translateY(-1px) translateX(1px);
+}
+
+.nav-link,
+.nav-link a,
+#language-div {
+  font-family: "Open Sans";
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+  /* font-size: 1vw; */
+  font-size: 13px;
+}
+
+#star-logo-nav {
+  height: 55px;
+}
+
+#language-div {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+#login-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  /* border: 2px solid pink; */
+}
+
+#lang-and-login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+#nz-flag,
+#maori-flag {
+  height: 15px;
+  width: 30px;
+}
+
+#nz-flag:hover,
+#maori-flag:hover {
+  cursor: pointer;
+  transform: translateY(-0.5px) translateX(0.5px);
+}
+
+#user-icon {
+  margin: 0 5px;
+}
+
+.flag-div {
+  margin: 0 2%;
+}
+
+#nav-hamburger{
+  display: none;
+  background-color: #43c0f6;
+  color: white;
+  text-align: center;
+}
+
+#nav-hamburger:hover {
+  cursor: pointer;
+}
+
+.nav-alt {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(67, 192, 246, 0.7);
+}
+
+.nav-alt a {
+  color: white;
+  margin: 5px;
+  /* font-family: Nunito; */
+  font-family: Open Sans;
+  font-weight: 600;
+  font-size: 10px;
+}
+
+#nav-link {
+  border: 2px pink solid;
+}
+
+#star-logo-span {
+  flex: 1;
+}
+
+#links {
+  flex: 1;
+}
+
+#lang-login-div {
+  flex: 1;
+}
+
+.hidden {
+  display: none;
+}
+
+.notHidden {
+  display: flex;
+}
